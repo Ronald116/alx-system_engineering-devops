@@ -29,4 +29,3 @@ if __name__ == "__main__":
 
     with open(("{}.json".format(empID)), 'w') as file:
         json.dump(dictStruct, file)
-
